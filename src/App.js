@@ -12,13 +12,13 @@ class App extends Component {
       <Router>
         <nav className="navbar p-0 text bg-dark justify-content-around font-weight-bold">
           <ul className="nav text-dark">
-              <Link to="/">
+              <Link to="/portfolio/">
                 <p className="nav-link">Home</p>
               </Link>
-              <Link to="/resume">
+              <Link to="/portfolio/resume">
                 <p className="nav-link">Resume</p>
               </Link>
-              <Link to="/about">
+              <Link to="/portfolio/about">
                 <p className="nav-link">About</p>
               </Link>
           </ul>
